@@ -1,0 +1,291 @@
+/*=========================== Header ===============================*/
+
+.header {
+  border-top: 5px;
+  border-color: #0e0e0e;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+#logo img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 2px;
+  margin-right: 90px;
+  padding-top: 10px;
+}
+
+#tour, #pricing, #about, #contact {
+  color: #777676;
+  font-size: 13px;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+#home button {
+  width: 60px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ebebeb;
+  color: #777676;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+#sign-up button {
+  width: 90px;
+  height: 30px;
+  margin: none;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #ed6348;
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 3px;
+  margin-top: 25px;
+}
+#login button {
+  width: 90px;
+  height: 30px;
+  margin: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #4d99da;
+  color: #ffffff;
+  font-size: 13px;
+  /*margin: 10px 0px 0px 0px;*/
+  margin-top: 25px;
+}
+
+
+/*============================ Body ===================================*/
+
+.gray-background {
+  background-color: #31353c;
+  height: 640px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#description {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Tahoma, regular;
+}
+
+.second-description {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Tahoma, regular;
+  margin-top: -30px
+}
+
+#try-it-free button {
+  width: 140px;
+  height: 40px;
+  background-color: #ed6348;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+}
+
+#product-tour button {
+  width: 140px;
+  height: 40px;
+  background-color: #4d99da;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.laptop img {
+  max-width: 1000px;
+  max-height: 500px;
+  margin-top: 25px;
+}
+.laptop {
+  display: flex;
+  justify-content: center;
+}
+
+.body-title h1 {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.body-title-description h4 {
+  /*margin-top: 180px;*/
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-bottom: 8px;
+  color: #777676;
+}
+
+.second-body-title-description h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 5px;
+  color: #777676;
+}
+
+.center-options {
+  display: flex;
+  justify-content: center;
+}
+
+.observe img {
+  width: 100px;
+  height: 150px;
+  padding-left: 200px;
+  margin-top: 20px;
+}
+
+.evaluate-and-develope img {
+  width: 100px;
+  height: 150px;
+  padding-left: 80px;
+  margin-top: 20px;
+  border: 30px;
+  border-color: #a0b0ce;
+}
+
+.collaborate img {
+  width: 100px;
+  height: 150px;
+  padding-left: 60px;
+  padding-right: 90px;
+  margin-top: 20px;
+}
+
+.academic-gain img {
+  width: 100px;
+  height: 150px;
+  padding-right: 190px;
+  padding-left: auto;
+  margin-top: 20px;
+}
+
+.observe h5 {
+  margin-left: 200px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.evaluate-and-develope h5 {
+  margin-left: 50px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.collaborate h5 {
+  margin-left: 70px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.academic-gain h5 {
+  margin-left: 10px;
+}
+
+.observe p{
+  /*margin-left: 190px;*/
+  font-size: 11.5px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #777676;
+  margin-left: 150px;
+}
+
+.evaluate-and-develope p{
+  /*margin-left: 150px;*/
+  font-size: 11.5px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #777676;
+  margin-left: 50px;
+}
+
+.collaborate p{
+  /*margin-left: 200px;*/
+  font-size: 10.5px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #777676;
+  margin-left: 40px;
+}
+
+.academic-gain p{
+  font-size: 11.5px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #777676;
+  margin-left: 0px;
+}
+
+/*========================== Comments ===================================*/
+
+.blog-post {
+  background-color: #fcfcfc
+}
+
+.blog-post h4 {
+  font-size: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-left: 40px;
+}
+
+.blog-post ol {
+  font-size: 11px;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-left: 40px;
+  list-style-type: none;
+}
+
+.blog-post h5 {
+  color: #f19e8e;
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+
+/*============================== Footer ==============================*/
+
+/*.footer {
+  background-color: #fcfcfc;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/**/
